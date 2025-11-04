@@ -1,0 +1,180 @@
+:root {
+  /* Soft Pink Accent */
+  --accent-pink: #f0c4c8;
+  /* Deep Pink for Primary Accents/Text/Links (Formal) */
+  --deep-pink: #b84d72;
+  /* Pure White Background */
+  --background-white: #ffffff;
+  /* Very Light Pink/Gray for subtle section backgrounds */
+  --primary-light: #f8f9fa;
+  /* Pink-tinted Shadow */
+  --shadow-color: rgba(0, 0, 0, 0.15);
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--background-white);
+  color: #444;
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h5 {
+  color: var(--deep-pink);
+  font-weight: 600;
+}
+
+.section-padding {
+  padding: 4rem 0;
+}
+
+.text-deep-pink {
+  color: var(--deep-pink);
+}
+
+.btn-primary {
+  background-color: var(--deep-pink) !important;
+  border-color: var(--deep-pink) !important;
+}
+
+.shadow-hover:hover {
+  box-shadow: 0 8px 20px var(--shadow-color) !important;
+  transform: translateY(-3px);
+}
+
+.navbar {
+  background-color: var(--background-white) !important;
+  box-shadow: 0 4px 8px var(--shadow-color);
+  position: sticky;
+  top: 0;
+  z-index: 1020;
+}
+
+.navbar-brand,
+.nav-link {
+  color: var(--deep-pink) !important;
+  font-weight: 500;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  background-color: var(--accent-pink);
+  border-radius: 5px;
+}
+.page-header {
+    padding: 0; 
+    border-bottom: 3px solid var(--accent-pink);
+    min-height: 200px; 
+    position: relative;
+}
+.page-header .container-fluid {
+    padding: 0;
+}
+.page-header .header-image-only {
+    width: 100%; 
+    height: 100%;
+    object-fit: cover; 
+    display: block; 
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.card,
+.project-card {
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  padding: 15px;
+  margin-bottom: 10px;
+  transition: 0.3s;
+  background-color: var(--background-white);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 3px solid var(--deep-pink);
+  object-fit: cover;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+}
+
+.skills i {
+  font-size: 25px;
+  color: #000000;
+  margin-right: 15px;
+  transition: 0.3s;
+}
+
+.skills i:hover {
+  color: var(--deep-pink);
+  transform: scale(1.1);
+}
+
+.progress-bar {
+  background-color: var(--deep-pink);
+}
+
+.btn-outline-pink {
+  --bs-btn-color: var(--deep-pink);
+  --bs-btn-border-color: var(--deep-pink);
+  --bs-btn-hover-color: white;
+  --bs-btn-hover-bg: var(--deep-pink);
+  --bs-btn-hover-border-color: var(--deep-pink);
+}
+
+.project-card {
+  padding: 0;
+  margin-bottom: 15px;
+}
+
+.accordion-button {
+  border-radius: 20px 20px 0 0 !important;
+  font-weight: 600;
+}
+
+.accordion-button:not(.collapsed) {
+  color: white;
+  background-color: var(--deep-pink);
+  border-color: var(--deep-pink);
+  box-shadow: none;
+}
+
+.accordion-button:not(.collapsed)::after {
+  filter: brightness(0) invert(1);
+}
+
+.accordion-item {
+  border: none;
+  border-radius: 20px !important;
+}
+
+.accordion-body {
+  padding: 20px;
+}
+
+footer {
+  background-color: var(--primary-light);
+  padding: 5px 0;
+  margin-top: 5px;
+  border-top: 3px solid var(--deep-pink);
+}
+
+.contact-links a {
+  color: var(--deep-pink);
+  font-size: 20px;
+  margin: 0 10px;
+  transition: 0.3s;
+}
+
+.contact-links a:hover {
+  color: var(--accent-pink);
+  transform: scale(1.1);
+  text-shadow: 0 0 5px rgba(184, 77, 114, 0.5);
+}

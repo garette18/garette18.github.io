@@ -2,234 +2,221 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>margrettemarcelino | Portfolio</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Margarette M. Marcelino | Portfolio</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 
-    <style>
-        * {
-            user-select: none;
-        }
-
-        body {
-            font-family: "Poppins", sans-serif;
-            background-color: rgb(238, 162, 162);
-            color: #444;
-            scroll-behavior: smooth;
-        }
-
-        h1,
-        h2 {
-            color: #b84d72;
-            font-weight: 600;
-            text-align: left;
-        }
-
-        .sidebar {
-            background-color: #f8d7e0;
-            padding: 20px;
-            height: 100vh;
-            position: sticky;
-            top: 0;
-        }
-
-        .sidebar img {
-            width: 130px;
-            height: 130px;
-            border-radius: 50%;
-            border: 3px solid #fff;
-            margin-bottom: 15px;
-            object-fit: cover;
-        }
-
-        .sidebar h2 {
-            font-size: 21px;
-            color: #b84d72;
-            margin-bottom: 25px;
-            text-align: center;
-        }
-
-        .nav-link {
-            color: #b84d72 !important;
-            font-weight: 500;
-            margin: 5px 0;
-            border-radius: 10px;
-            padding: 8px 15px;
-            transition: 0.3s;
-        }
-
-        .nav-link:hover,
-        .nav-link.active {
-            background-color: #b84d72;
-            color: #fff !important;
-            transform: scale(1.05);
-        }
-
-        .card {
-            border: none;
-            border-radius: 20px;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-            padding: 25px;
-            margin-bottom: 20px;
-            transition: 0.3s;
-            text-align: justify;
-        }
-
-        .card p {
-            text-align: justify;
-            text-justify: inter-word;
-        }
-
-        .skills i {
-            font-size: 50px;
-            color: #444;
-            margin-right: 15px;
-            margin-bottom: 10px;
-            transition: 0.3s;
-        }
-
-        .skills i:hover {
-            color: #b84d72;
-            transform: scale(1.1);
-        }
-
-        .contact-links a {
-            color: #b84d72;
-            font-size: 24px;
-            margin-right: 15px;
-            margin-bottom: 10px;
-            transition: 0.3s;
-        }
-
-        .contact-links a:hover {
-            color: #ff99bb;
-            transform: scale(1.1);
-        }
-
-        @media (max-width: 991px) {
-            .sidebar {
-                height: auto;
-                text-align: center;
-                margin-bottom: 20px;
-            }
-
-            .sidebar img {
-                width: 80px;
-                height: 80px;
-                margin-bottom: 10px;
-            }
-
-            .sidebar h2 {
-                font-size: 18px;
-                margin-bottom: 15px;
-            }
-
-            .nav-link {
-                margin: 3px 0;
-                padding: 5px 10px;
-            }
-        }
-    </style>
 </head>
 
 <body>
 
-    <div class="container-fluid">
-        <div class="row flex-nowrap">
-            <nav class="col-3 col-md-3 col-lg-3 col-xl-2 sidebar d-flex flex-column align-items-center"> <img src=""
-                    alt="">
-                <h2>Margarette M. Marcelino</h2>
-                <nav class="nav flex-column w-100 mb-3">
-                    <a class="nav-link" href="#about">About</a>
-                    <a class="nav-link" href="#skills">Skills</a>
-                    <a class="nav-link" href="#projects">Projects</a>
-                </nav>
-                <div class="contact-links d-flex flex-wrap justify-content-center mt-auto">
-                    <a href="https://www.facebook.com/margarettemmarcelino" target="_blank"><i
-                            class="bi bi-facebook"></i></a>
-                    <a href="https://www.instagram.com/marg.ggs/" target="_blank"><i class="bi bi-instagram"></i></a>
-                    <a href="https://github.com/garette18" target="_blank"><i class="bi bi-github"></i></a>
-                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=marcelinomargarette04@gmail.com"
-                        target="_blank"><i class="bi bi-envelope-fill"></i> 
-                    </a>
-
-                </div>
-            </nav>
-
-            <main class="col-9 col-md-9 col-lg-9 col-xl-10 py-4">
-                <section id="home" class="mb-4">
-                    <div class="card">
-                        <h1>Hello, Stranger!</h1>
-                        <p> Hi! I'm Marga, a 3rd-year college student studying Bachelor of Science
-                            In Information Technology at the Polytechnic University of the Philippines - Sto. Tomas
-                            Campus. This portfolio
-                            is just for a class assignment, so it's pretty simple — I only have a few skills listed, my
-                            projects section is empty, and my contacts are ready if anyone wants to reach me.
-                            It's basic, but it's a start, and I hope to fill it up more as I learn and grow!</p>
-                    </div>
-                </section>
-
-                <section id="about" class="mb-4">
-                    <div class="card">
-                        <h2>About Me</h2>
-                        <p>Ever since I started studying IT, I've been really interested in how technology connects
-                            people and changes lives. Right now, I'm learning programming basics, database management,
-                            and web design, and I always like trying new things that can help me get better. I may still
-                            be new to this field, but I'm motivated to practice and improve my skills every day, and I
-                            enjoy taking on small projects to learn more.</p>
-                        <p>Outside of school, I like reading stories on Wattpad, watching movies, and taking care of my
-                            younger brother. I also enjoy organizing my notes, and exploring simple and easy-to-use
-                            designs. I like playing with colors, fonts, and layouts to make things look neat and clear.
-                        </p>
-                    </div>
-                </section>
-
-                <section id="skills" class="mb-4">
-                    <div class="card">
-                        <h2>Skills</h2>
-                        <p>I have a basic understanding of several programming languages and tools that help me grow as
-                            a future IT professional. I'm still learning, but I already have some knowledge in
-                            <strong>C</strong>, <strong>C++</strong>, <strong>Python</strong>, <strong>MySQL</strong>,
-                            <strong>HTML</strong>, and <strong>CSS</strong>. I enjoy practicing these languages through
-                            small projects and exercises because it helps me understand how things work step by step.
-                            Even though I'm still learning, I'm excited to see how I can use what I know to create
-                            programs, websites, or systems that are useful and easy for people to use.
-                        </p>
-                        <div class="skills mt-2 d-flex flex-wrap">
-                            <i class="devicon-c-plain"></i>
-                            <i class="devicon-cplusplus-plain"></i>
-                            <i class="devicon-python-plain"></i>
-                            <i class="devicon-mysql-plain-wordmark"></i>
-                            <i class="devicon-html5-plain"></i>
-                            <i class="devicon-css3-plain"></i>
-                        </div>
-                    </div>
-                </section>
-
-                <section id="projects" class="mb-4">
-                    <div class="card">
-                        <h2>Projects</h2>
-                        <p>Although I don't have major projects yet, I've worked on several school activities,
-                            exercises, and mini-programs that helped me improve my coding skills and creativity. I've
-                            also practiced creating basic web designs, experimented with layouts, and tried different
-                            styles to make them look neat and user-friendly. Working with MySQL has helped me understand
-                            how databases work and how to organize data efficiently.</p>
-                        <p>In the future, I plan to create a personal website or a simple management system where users
-                            can enjoy a smooth and friendly interface. I want these projects to show my growth in IT and
-                            reflect the skills I've learned so far. I'm excited to continue learning and building more
-                            projects.</p>
-                    </div>
-                </section>
-            </main>
-        </div>
+  <nav class="navbar navbar-expand-lg sticky-top">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="index.html">
+        <img src="assets/logo.png" alt="MM Logo" style="height: 50px;">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#home"> Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="activities.html" target="_blank"> Activities</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacts"> Contacts</a>
+          </li>
+        </ul>
+      </div>
     </div>
+  </nav>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<header class="page-header">
+    <div class="container-fluid"> 
+        <img src="assets/header.png" alt="Full Header Image" class="header-image-only">
+    </div>
+</header>
+  <div class="container">
+    <section id="home" class="section-padding">
+      <div class="card shadow-hover">
+        <div class="text-center p-1">
+          <img src="assets/picture.jpg" class="profile-pic shadow">
+          <h5>Margarette Mercado Marcelino</h5>
+        </div>
+        <h2 class="mt-4">About Me</h2>
+        <p> I'm Marga, a 3rd-year college student taking up a Bachelor of Science in Information Technology at the
+          Polytechnic University of the Philippines - Sto. Tomas Campus. I'm an aspiring UI/UX designer who enjoys
+          creating simple and user-friendly designs that make technology
+          easier to use.</p>
+        <div class="text-center">
+          <button type="button" class="btn btn-sm btn-outline-pink w-20" data-bs-toggle="popover"
+            data-bs-placement="right" data-bs-trigger="focus" data-bs-title="Student Goal"
+            data-bs-content="To graduate with comprehensive IT skills and actively contribute to innovative projects.">
+            My Goal
+          </button>
+        </div>
+    </section>
+
+    <div class="row section-padding pt-0">
+      <div class="col-lg-4 col-md-6 mb-4">
+        <section id="skills" class="h-100">
+          <div class="card shadow-hover h-100">
+            <h2>Skills</h2>
+            <p>I have a basic understanding of several programming languages and tools:</p>
+            <ul class="list-group list-group-flush mb-3">
+              <li class="list-group-item">
+                <div class="d-flex justify-content-between align-items-center">
+                  Front-end Development (HTML/CSS/Bootstrap)</span>
+                </div>
+              </li>
+              <li class="list-group-item">
+                <div class="d-flex justify-content-between align-items-center">
+                  Procedural Programming (Python & C/C++)</span>
+                </div>
+              </li>
+              <li class="list-group-item">
+                <div class="d-flex justify-content-between align-items-center">
+                  Relational Database Management (MySQL)</span>
+                </div>
+              </li>
+              <li class="list-group-item">
+                <div class="d-flex justify-content-between align-items-center">
+                  Figma and Photoshop</span>
+                </div>
+              </li>
+            </ul>
+            <div class="skills mt-auto d-flex flex-wrap justify-content-center pt-2 border-top">
+              <i class="devicon-c-plain" data-bs-toggle="tooltip" data-bs-placement="top" title="C Language"></i>
+              <i class="devicon-python-plain" data-bs-toggle="tooltip" data-bs-placement="top" title="Python"></i>
+              <i class="devicon-mysql-plain-wordmark" data-bs-toggle="tooltip" data-bs-placement="top"
+                title="MySQL"></i>
+              <i class="devicon-html5-plain" data-bs-toggle="tooltip" data-bs-placement="top" title="HTML5"></i>
+              <i class="devicon-css3-plain" data-bs-toggle="tooltip" data-bs-placement="top" title="CSS3"></i>
+              <i class="devicon-figma-plain" data-bs-toggle="tooltip" data-bs-placement="top" title="Figma"></i>
+              <i class="devicon-photoshop-plain" data-bs-toggle="tooltip" data-bs-placement="top" title="Photoshop"></i>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div class="col-lg-4 col-md-6 mb-4">
+        <section id="interests" class="h-100">
+          <div class="card shadow-hover h-100">
+            <h2>Interests</h2>
+            <p>I focus on interests that help me improve my technical and creative skills:</p>
+            <ul class="list-group list-group-flush mb-auto">
+              <li class="list-group-item"><i class="bi bi-filetype-sql me-2 text-deep-pink"></i>
+                <strong>SQL:</strong> Learning how to manage and organize data using simple commands
+              </li>
+              <li class="list-group-item"><i class="bi bi-palette me-2 text-deep-pink"></i> <strong>UX/UI
+                  Design:</strong> Exploring
+                clean, simple, and easy-to-use interface designs.</li>
+              <li class="list-group-item"><i class="bi bi-pencil me-2 text-deep-pink"></i>
+                <strong>Figma:</strong> Designing and prototyping user interfaces online.
+              </li>
+            </ul>
+            <hr>
+          </div>
+        </section>
+      </div>
+
+      <div class="col-lg-4 col-md-12 mb-4">
+        <section id="activities" class="h-100">
+          <div class="card shadow-hover h-100">
+            <h2>Activities Preview</h2>
+            <p>A quick look at my school activities:</p>
+            <ul class="list-group list-group-flush mb-4">
+              <li class="list-group-item"><i class="bi bi-phone me-2 text-deep-pink"></i> <strong>Activity 4</strong> -
+                Vivo-Y21d
+              </li>
+              <li class="list-group-item"><i class="bi bi-geo-alt me-2 text-deep-pink"></i> <strong>Activity 5</strong>
+                - Batanes
+              </li>
+              <li class="list-group-item"><i class="bi bi-box-arrow-right me-2 text-deep-pink"></i> Upcoming...
+              </li>
+              <li class="list-group-item"><i class="bi bi-box-arrow-right me-2 text-deep-pink"></i> Upcoming...
+              </li>
+              <li class="list-group-item"><i class="bi bi-box-arrow-right me-2 text-deep-pink"></i> Upcoming...
+              </li>
+            </ul>
+
+            <div class="mt-auto">
+              <button type="button" class="btn btn-outline-pink w-100 mb-2" data-bs-toggle="modal"
+                data-bs-target="#activitiesModal">
+                Quick Details </button>
+              <a href="activities.html" target="_blank" class="btn btn-outline-pink w-100 mb-2">
+                View Full Projects Page </a>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="activitiesModal" tabindex="-1" aria-labelledby="activitiesModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="activitiesModalLabel">Activity Summary</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p class="text-muted">A brief look at the types of school work I've completed:</p>
+          <ul class="list-group">
+            <li class="list-group-item"><i class="bi bi-phone me-2 text-deep-pink"></i> Activity 4 - A simple
+              website highlighting the features, specs, and sleek design of the Vivo Y21D smartphone.</li>
+            <li class="list-group-item"><i class="bi bi-geo-alt me-2 text-deep-pink"></i>Activity 5 - A travel
+              website featuring the beauty, culture, and activities of Batanes, Philippines.</li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <a href="activities.html" target="_blank" class="btn btn-primary">Go to Full Projects</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer id="contacts" class="text-center">
+    <div class="container">
+      <h4 class="text-deep-pink">Connect With Me</h4>
+      <div class="contact-links d-flex justify-content-center mb-2">
+        <a href="https://www.facebook.com/margarettemmarcelino" target="_blank" class="shadow-hover p-1 rounded-circle"
+          aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+        <a href="https://www.instagram.com/marg.ggs/" target="_blank" class="shadow-hover p-2 rounded-circle"
+          aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+        <a href="https://github.com/garette18" target="_blank" class="shadow-hover p-2 rounded-circle"
+          aria-label="GitHub"><i class="bi bi-github"></i></a>
+        <a href="https://www.linkedin.com/in/yourprofile" target="_blank" class="shadow-hover p-2 rounded-circle"
+          aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=marcelinomargarette04@gmail.com" target="_blank"
+          class="shadow-hover p-2 rounded-circle" aria-label="Email"><i class="bi bi-envelope-fill"></i></a>
+      </div>
+      <p class="text-muted mb-0">&copy; 2025 All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+    var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+      return new bootstrap.Popover(popoverTriggerEl)
+    });
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+      return new bootstrap.Tooltip(tooltipTriggerEl)
+    });
+  </script>
 </body>
 
 </html>
