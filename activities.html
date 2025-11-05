@@ -11,107 +11,99 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-
-
 </head>
 
 <body>
-
-    <nav class="navbar navbar-expand-lg sticky-top">
+    <nav class="navbar navbar-expand-lg sticky-top bg-white shadow-sm">
         <div class="container">
             <a class="navbar-brand d-flex align-items-center" href="index.html">
-                <img src="assets/logo.png" alt="MM Logo" style="height: 50px;">
+                <img src="assets/logo.png" style="height: 50px;">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="index.html"> Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="activities.html" target="_blank"> Activities</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contacts"> Contacts</a>
-                    </li>
-                </ul>
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link" href="index.html">Home</a>
+                    <a class="nav-link" href="activities.html">Activities</a>
+                    <a class="nav-link" href="#contacts">Contacts</a>
+                </div>
             </div>
         </div>
     </nav>
-    <section id="full-activities" class="section-padding">
+
+    <section id="full-activities" class="py-5">
         <div class="container">
-            <h1 class="text-center mb-2 display-5">Activities</h1>
+            <h1 class="text-center mb-2 display-5 fw-bold">Activities</h1>
             <p class="lead text-center text-muted mb-5">A detailed look at my activities.</p>
-            <div class="row" data-masonry='{"percentPosition": true }'>
-                <div class="col-sm-6 col-lg-4 mb-4">
-                    <div class="card project-card shadow-lg h-100">
-                        <img src="assets/vivo.png" class="card-img-top"><div class="card-body">
-                            <h5 class="card-title">Activity 4: Vivo Y21D
-                            </h5>
+
+            <div class="row justify-content-center g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card shadow-lg h-100 border-0">
+                        <img src="assets/vivo.png" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title fw-semibold">Activity 4: Vivo Y21D</h5>
                             <p class="card-text">
                                 Design a responsive product page based on the Vivo Y21d, showcasing key
                                 features like the 6500 mAh battery and IP68/IP69 rating.
                             </p>
                             <div class="d-flex justify-content-between">
                                 <a href="https://garette18.github.io/vivo-y21d/" target="_blank"
-                                    class="btn btn-primary w-50 me-2">View Live Site
-                                </a>
-                                <a href="https://github.com/garette18/vivo-y21d" target="_blank" class="btn btn-outline-secondary w-50">View Repo
-                                </a>
+                                    class="btn btn-primary w-50 me-2">View Live Site</a>
+                                <a href="https://github.com/garette18/vivo-y21d" target="_blank"
+                                    class="btn btn-outline-secondary w-50">View Repo</a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-lg-4 mb-4">
-                    <div class="card project-card shadow-lg h-100">
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card shadow-lg h-100 border-0">
                         <img src="assets/batanes.png" class="card-img-top">
                         <div class="card-body">
-                            <h5 class="card-title">Activity 5: Batanes</h5>
+                            <h5 class="card-title fw-semibold">Activity 5: Batanes</h5>
                             <p class="card-text">
                                 Create a multi-page informational website about Batanes, Philippines, focusing on
                                 content organization for attractions, culture, and facts.
                             </p>
                             <div class="d-flex justify-content-between">
                                 <a href="https://garette18.github.io/Batanes/" target="_blank"
-                                    class="btn btn-primary w-50 me-2">View Live Site
-                                </a>
+                                    class="btn btn-primary w-50 me-2">View Live Site</a>
                                 <a href="https://github.com/garette18/Batanes" target="_blank"
-                                    class="btn btn-outline-secondary w-50"> View Repo
-                                </a>
+                                    class="btn btn-outline-secondary w-50">View Repo</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+
             <div class="text-center mt-5">
-                <a href="index.html" class="btn btn-primary">
-                    <i class="bi bi-arrow-left"></i> Home </a>
+                <a href="index.html" class="btn btn-primary">Home</a>
             </div>
         </div>
     </section>
-    <footer id="contacts" class="text-center">
+
+    <footer id="contacts" class="text-center py-4 bg-light">
         <div class="container">
-            <h4 class="text-deep-pink">Connect With Me</h4>
-            <div class="contact-links d-flex justify-content-center mb-2">
-                <a href="https://www.facebook.com/margarettemmarcelino" target="_blank"
-                    class="shadow-hover p-1 rounded-circle" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
-                <a href="https://www.instagram.com/marg.ggs/" target="_blank" class="shadow-hover p-2 rounded-circle"
-                    aria-label="Instagram"><i class="bi bi-instagram"></i></a>
-                <a href="https://github.com/garette18" target="_blank" class="shadow-hover p-2 rounded-circle"
-                    aria-label="GitHub"><i class="bi bi-github"></i></a>
-                <a href="https://www.linkedin.com/in/yourprofile" target="_blank"
-                    class="shadow-hover p-2 rounded-circle" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
-                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=marcelinomargarette04@gmail.com" target="_blank"
-                    class="shadow-hover p-2 rounded-circle" aria-label="Email"><i class="bi bi-envelope-fill"></i></a>
+            <h4 class="fw-semibold mb-3">Connect With Me</h4>
+            <div class="d-flex justify-content-center gap-3 mb-3">
+                <a href="https://www.facebook.com/margarettemmarcelino" target="_blank" aria-label="Facebook"><i
+                        class="bi bi-facebook fs-4 text-dark"></i></a>
+                <a href="https://www.instagram.com/marg.ggs/" target="_blank" aria-label="Instagram"><i
+                        class="bi bi-instagram fs-4 text-dark"></i></a>
+                <a href="https://github.com/garette18" target="_blank" aria-label="GitHub"><i
+                        class="bi bi-github fs-4 text-dark"></i></a>
+                <a href="https://www.linkedin.com/in/yourprofile" target="_blank" aria-label="LinkedIn"><i
+                        class="bi bi-linkedin fs-4 text-dark"></i></a>
+                <a href="mailto:marcelinomargarette04@gmail.com" target="_blank" aria-label="Email"><i
+                        class="bi bi-envelope-fill fs-4 text-dark"></i></a>
             </div>
             <p class="text-muted mb-0">&copy; 2025 All Rights Reserved.</p>
         </div>
     </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" async></script>
 </body>
 
 </html>

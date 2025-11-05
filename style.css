@@ -62,23 +62,26 @@ h5 {
   background-color: var(--accent-pink);
   border-radius: 5px;
 }
+
 .page-header {
-    padding: 0; 
-    border-bottom: 3px solid var(--accent-pink);
-    min-height: 200px; 
-    position: relative;
+  padding: 0;
+  border-bottom: 3px solid var(--accent-pink);
+  min-height: 200px;
+  position: relative;
 }
+
 .page-header .container-fluid {
-    padding: 0;
+  padding: 0;
 }
+
 .page-header .header-image-only {
-    width: 100%; 
-    height: 100%;
-    object-fit: cover; 
-    display: block; 
-    position: absolute;
-    top: 0;
-    left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .card,
@@ -91,8 +94,6 @@ h5 {
   transition: 0.3s;
   background-color: var(--background-white);
   height: 100%;
-  display: flex;
-  flex-direction: column;
 }
 
 .profile-pic {
@@ -103,22 +104,9 @@ h5 {
   object-fit: cover;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   margin-bottom: 1rem;
-}
-
-.skills i {
-  font-size: 25px;
-  color: #000000;
-  margin-right: 15px;
-  transition: 0.3s;
-}
-
-.skills i:hover {
-  color: var(--deep-pink);
-  transform: scale(1.1);
-}
-
-.progress-bar {
-  background-color: var(--deep-pink);
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 .btn-outline-pink {
@@ -132,31 +120,6 @@ h5 {
 .project-card {
   padding: 0;
   margin-bottom: 15px;
-}
-
-.accordion-button {
-  border-radius: 20px 20px 0 0 !important;
-  font-weight: 600;
-}
-
-.accordion-button:not(.collapsed) {
-  color: white;
-  background-color: var(--deep-pink);
-  border-color: var(--deep-pink);
-  box-shadow: none;
-}
-
-.accordion-button:not(.collapsed)::after {
-  filter: brightness(0) invert(1);
-}
-
-.accordion-item {
-  border: none;
-  border-radius: 20px !important;
-}
-
-.accordion-body {
-  padding: 20px;
 }
 
 footer {
