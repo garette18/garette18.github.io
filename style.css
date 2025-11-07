@@ -63,27 +63,6 @@ h5 {
   border-radius: 5px;
 }
 
-.page-header {
-  padding: 0;
-  border-bottom: 3px solid var(--accent-pink);
-  min-height: 200px;
-  position: relative;
-}
-
-.page-header .container-fluid {
-  padding: 0;
-}
-
-.page-header .header-image-only {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
 .card,
 .project-card {
   border: none;
