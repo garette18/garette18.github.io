@@ -1,13 +1,8 @@
 :root {
-  /* Soft Pink Accent */
   --accent-pink: #f0c4c8;
-  /* Deep Pink for Primary Accents/Text/Links (Formal) */
   --deep-pink: #b84d72;
-  /* Pure White Background */
   --background-white: #ffffff;
-  /* Very Light Pink/Gray for subtle section backgrounds */
   --primary-light: #f8f9fa;
-  /* Pink-tinted Shadow */
   --shadow-color: rgba(0, 0, 0, 0.15);
 }
 
