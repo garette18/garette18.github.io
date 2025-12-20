@@ -115,3 +115,6 @@ footer {
   transform: scale(1.1);
   text-shadow: 0 0 5px rgba(184, 77, 114, 0.5);
 }
+.text-justify {
+  text-align: justify;
+}
